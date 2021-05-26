@@ -73,6 +73,8 @@ default:
 }
 movies();
 
+function tvShows() {
+  
 
 let tvShows = prompt('do you like TV Shows?');
 //console.log(tvShows);
@@ -90,6 +92,11 @@ default:
   break;
 
 }
+}
+tvShows();
+
+
+
 
 let arabic = prompt('do you find arabic language hard');
 //console.log(arabic);
