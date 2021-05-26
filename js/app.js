@@ -6,8 +6,10 @@ console.log(userName);
 alert(' hey, ' + userName);
 
 
+function book() {
 
-let book= prompt('do you like books?');
+
+  let book= prompt('do you like books?');
 //console.log(book);
 switch (book.toLowerCase()) {
 case 'yes':
@@ -23,6 +25,12 @@ default:
   break;
 
 }
+  
+}
+book();
+
+function food() {
+  
 
 let food = prompt('do you like chinese food?');
 //console.log(food);
@@ -40,6 +48,11 @@ default:
   break;
 
 }
+}
+food();
+
+function movies() {
+  
 
 let movies = prompt('do you love watching movies');
 //console.log(movies);
@@ -57,6 +70,11 @@ default:
   break;
 
 }
+}
+movies();
+
+function tvShows() {
+  
 
 let tvShows = prompt('do you like TV Shows?');
 //console.log(tvShows);
@@ -74,6 +92,12 @@ default:
   break;
 
 }
+}
+tvShows();
+
+
+function arabic() {
+  
 
 let arabic = prompt('do you find arabic language hard');
 //console.log(arabic);
@@ -94,6 +118,9 @@ default:
   break;
 
 }
+}
+arabic();
+
 
 /*let num=Number(prompt('can you guess my age?  hint:from 20-30?'));
 //let ans=23;
@@ -131,7 +158,7 @@ case(age<23):
     break;
 }*/
 
-
+/*
 let age = Number(prompt('guess my age?'));
 for (let I= 0; I<3; I++) {
   if (age===23) {
@@ -151,3 +178,7 @@ for (let I= 0; I<3; I++) {
   }
 
 }
+*/
+
+
+
