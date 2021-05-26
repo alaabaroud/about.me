@@ -51,7 +51,8 @@ default:
 }
 food();
 
-
+function movies() {
+  
 
 let movies = prompt('do you love watching movies');
 //console.log(movies);
@@ -69,6 +70,9 @@ default:
   break;
 
 }
+}
+movies();
+
 
 let tvShows = prompt('do you like TV Shows?');
 //console.log(tvShows);
