@@ -6,7 +6,7 @@ console.log(userName);
 alert(' hey, ' + userName);
 
 
-function book(redingBooks) {
+function book() {
 
 
   let book= prompt('do you like books?');
@@ -28,7 +28,10 @@ default:
   
 }
 book();
-/*
+
+function food() {
+  
+
 let food = prompt('do you like chinese food?');
 //console.log(food);
 switch(food.toLowerCase()) {
@@ -45,6 +48,10 @@ default:
   break;
 
 }
+}
+food();
+
+
 
 let movies = prompt('do you love watching movies');
 //console.log(movies);
