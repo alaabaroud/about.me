@@ -96,7 +96,8 @@ default:
 tvShows();
 
 
-
+function arabic() {
+  
 
 let arabic = prompt('do you find arabic language hard');
 //console.log(arabic);
@@ -117,6 +118,9 @@ default:
   break;
 
 }
+}
+arabic();
+
 
 /*let num=Number(prompt('can you guess my age?  hint:from 20-30?'));
 //let ans=23;
