@@ -6,8 +6,10 @@ console.log(userName);
 alert(' hey, ' + userName);
 
 
+function book(redingBooks) {
 
-let book= prompt('do you like books?');
+
+  let book= prompt('do you like books?');
 //console.log(book);
 switch (book.toLowerCase()) {
 case 'yes':
@@ -23,7 +25,10 @@ default:
   break;
 
 }
-
+  
+}
+book();
+/*
 let food = prompt('do you like chinese food?');
 //console.log(food);
 switch(food.toLowerCase()) {
@@ -131,7 +136,7 @@ case(age<23):
     break;
 }*/
 
-
+/*
 let age = Number(prompt('guess my age?'));
 for (let I= 0; I<3; I++) {
   if (age===23) {
@@ -151,3 +156,7 @@ for (let I= 0; I<3; I++) {
   }
 
 }
+*/
+
+
+
